@@ -70,6 +70,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="./materialize/js/materialize.min.js"></script>
 <script src="./materialize/js/custom.js"></script>
 </html>
