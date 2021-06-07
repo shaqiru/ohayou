@@ -11,6 +11,7 @@
   <meta name="theme-color" content="#000072" />
   <link rel="apple-touch-icon" href="./materialize/rose.png" />
   <link rel="shortcut icon" href="./materialize/rose.png" />
+  <link type="text/css" rel="stylesheet" href='./materialize/css/custom.css'>
 </head>
 
 <body style="font-family:Nunito,sans-serif;">
@@ -27,7 +28,7 @@
                    <div class="card rounded img-fluid" style="width: 18rem;">
                       <img class="card-img-top" src="./materialize/1.png" alt="Card image cap">
                       <div class="card-body text-center">
-                        <p class="h5">Curah Hujan dalam 24 Jam</p>
+                        <p class="h5">Curah Hujan 24 Jam (mm)</p>
                         <span class="black-text force-center" id="data1"></span>
                       </div>
                     </div>
@@ -36,16 +37,16 @@
                    <div class="card rounded img-fluid" style="width: 18rem;">
                       <img class="card-img-top" src="./materialize/23.png" alt="Card image cap">
                       <div class="card-body text-center">
-                        <p class="h5">Kelembaban Tanah 1</p>
+                        <p class="h5">Kelembaban Tanah 1 (%)</p>
                         <span class="black-text force-center" id="data2"></span>
                       </div>
                     </div>
                </div>  
                <div class="col s12 m6 l4">  
                    <div class="card rounded img-fluid" style="width: 18rem;">
-                      <img class="card-img-top" src="./materialize/3.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="./materialize/23.png" alt="Card image cap">
                       <div class="card-body text-center">
-                        <p class="h5">Kelembaban Tanah 2</p>
+                        <p class="h5">Kelembaban Tanah 2 (%)</p>
                         <span class="black-text force-center" id="data3"></span>
                       </div>
                     </div>
@@ -70,5 +71,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./materialize/js/materialize.min.js"></script>
 <script src="./materialize/js/custom.js"></script>
 </html>
